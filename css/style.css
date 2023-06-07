@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;500;600;700&display=swap");
+
+@import url("header.css");
+@import url("hero.css");
+@import url("services.css");
+@import url("about.css");
+@import url("footer.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* primary */
+  --dark-violet: #2d2640;
+  --grayish-blue: #95a9c6;
+  /* neutral */
+  --very-dark-violet: #2b272f;
+  --dark-grayish-violet: #837d87;
+  --very-light-gray: #fafafa;
+  /* font */
+  --dm-serif-display: "DM Serif Display", serif;
+  --karla: "Karla", sans-serif;
+}
+
+/* utilities */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

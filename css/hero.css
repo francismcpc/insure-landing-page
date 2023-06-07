@@ -1,0 +1,127 @@
+.hero__content {
+  background-color: var(--dark-violet);
+}
+
+.hero__content .container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -300px;
+  padding: 0 20px;
+}
+
+.bar {
+  margin-top: 100px;
+  height: 1px;
+  width: 100px;
+  background-color: var(--dark-grayish-violet);
+}
+
+.hero__heading {
+  margin-top: 30px;
+  font-size: 3.5rem;
+  color: var(--very-light-gray);
+  font-family: var(--dm-serif-display);
+  font-weight: 400;
+}
+
+.hero__text {
+  margin-top: 10px;
+  color: var(--very-light-gray);
+  font-weight: 400;
+  font-family: var(--karla);
+  margin-bottom: 50px;
+}
+
+.hero__image img {
+  margin-top: 100px;
+  margin-bottom: -160px;
+}
+
+.hero__btn {
+  border: 2px solid var(--very-light-gray);
+  color: var(--very-light-gray);
+  padding: 10px 30px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--karla);
+}
+.hero__btn:hover {
+  background-color: var(--very-light-gray);
+  color: var(--dark-violet);
+}
+
+.pattern-left {
+  position: absolute;
+  left: 0;
+}
+.pattern-right {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  z-index: 1;
+}
+
+.hero {
+  margin-bottom: 600px;
+}
+
+/* media */
+
+@media screen and (max-width: 1150px) {
+  .hero__image img {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .hero__image img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__content {
+    height: 170vh;
+  }
+  .pattern-left {
+    display: none;
+  }
+  .pattern-right {
+    display: none;
+  }
+  .hero__content .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .hero__image img {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  .hero__info {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero__image img {
+    width: 100vw;
+    height: auto;
+  }
+  .hero__content {
+    height: 130vh;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .hero__heading {
+    font-size: 2.5rem;
+  }
+  .hero__content {
+    height: 100vh;
+  }
+}
