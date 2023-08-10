@@ -16,7 +16,7 @@ The Insure Landing Page project is a responsive website designed to showcase the
 
 ## Demo
 
-Check out the live demo of the Insure Landing Page [Live Demo](https://insure-landing-page-orcin.vercel.app/)
+Check out the live demo of the Insure Landing Page [here](https://insure-landing-page-orcin.vercel.app/)
 
 ## Getting Started
 
@@ -57,4 +57,5 @@ By working on this project, you can learn:
 ## Acknowledgements
 - This project was developed as part of the Frontend Mentor challenges. Special thanks to Frontend Mentor for providing the design and inspiration for this insurance landing page.
 
-Disclaimer: This project is for educational purposes only. The design and branding elements are provided by Frontend Mentor.
+## Disclaimer: 
+- This project is for educational purposes only. The design and branding elements are provided by Frontend Mentor.
